@@ -3,7 +3,7 @@ var http=require('http');
 
 var url=require('url');
 
-var ejs=require('ejs');
+// var ejs=require('ejs');
 //路由:指的就是针对不同请求的 URL，处理不同的业务逻辑。
 http.createServer(function(req,res){
     var pathname=url.parse(req.url).pathname;
